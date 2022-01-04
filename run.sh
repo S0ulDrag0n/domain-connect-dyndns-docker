@@ -1,6 +1,6 @@
 #!/bin/sh
 if [ -e setup_done ]; then
-  /usr/local/bin/domain-connect-dyndns update --all
+  /usr/local/bin/domain-connect-dyndns update --all --config /app/data/settings.txt
   echo 'Updated'
 else
   echo "Setting up $DOMAIN1"
