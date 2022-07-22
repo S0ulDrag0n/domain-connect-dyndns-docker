@@ -1,1 +1,1 @@
-5 * * * * /bin/sh /app/run.sh "/app/data/setup_done" >> /var/log/cron.log 2>&1
+5 * * * * /bin/bash /app/run.sh "/app/data/setup_done" >> /var/log/cron.log 2>&1
