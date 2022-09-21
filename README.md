@@ -18,3 +18,9 @@ That or run the following command in the container to setup domains:
 ```
 /usr/local/bin/domain-connect-dyndns setup --domain "test.com"
 ```
+
+Use the following command to update all manually:
+
+```
+domain-connect-dyndns update --all
+```
